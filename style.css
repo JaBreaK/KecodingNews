@@ -1,0 +1,208 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav a:hover {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Menu Right */
+.menu-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 5px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.login-dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 200px;
+}
+
+.login-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Berita Section */
+.berita-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.beritautama {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 300px;
+    width: 700px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.beritautama:hover {
+    transform: scale(1.05);
+}
+
+.beritautama img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.beritautama h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.beritautama p {
+    color: #666;
+    font-size: 14px;
+    padding: 0 10px 10px;
+}
+
+.beritautama a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Berita Section */
+.berita-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.berita {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.berita:hover {
+    transform: scale(1.05);
+}
+
+.berita img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.berita h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.berita p {
+    color: #666;
+    font-size: 14px;
+    padding: 0 10px 10px;
+}
+
+.berita a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+}
